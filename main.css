@@ -1,0 +1,179 @@
+img {
+    width: 80px;
+    height: auto;
+}
+*{
+    font-size: large;
+}
+.active{
+    background-color: gray;
+    color: white;
+    float: right;
+}
+li a{
+    text-decoration: none;
+
+;
+}
+li a:hover {
+    background-color: orange;
+    color: white;
+}
+
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:50px;
+    background-color: #3d4451;
+    color: white;
+
+}
+ul li{
+    padding: 0 15px;
+}
+body, html {
+    height: 100%;
+}
+
+
+.hero-image {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photographer.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'rubik', sans-serif;
+}
+
+
+.column {
+    float: left;
+    width: 22%;
+    margin-top: 20px ;
+    margin-left: 30px;
+    font-family: 'rubik', sans-serif;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#leftbox {
+    float:left;
+
+    margin-left: 25px;
+    width:31%;
+    height:300px;
+    border: 3px solid gray;
+
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#middlebox{
+
+    float:left;
+
+    width:31%;
+    margin-left: 25px;
+    height:300px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#rightbox{
+    float:right;
+
+    border: 3px solid gray;
+
+    width:31%;
+    height:300px;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.tsImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: #3d4451 solid;
+}
+.tsName{
+    text-align: center;
+    color: green;
+    font-family: "Sofia", sans-serif
+}
+.tsJob{
+    text-align: center;
+    color: gray;
+    margin-top: 5px;
+}
+#boxes{
+    font-family: 'Rubik', sans-serif;
+}
+p.tsDesc{
+    /* font-weight: lighter
+    ; */
+    justify-content: left;
+    padding: 5px;
+    font-family: "Audiowide", sans-serif;
+
+}
+.topL{
+    float: left;
+}
+.topR{
+    float: right;
+    color: olive;
+    font-family: "Sofia", sans-serif;
+
+}
+div>h1{
+    font-family: "Sofia", sans-serif;
+}
+header+nav{
+    border: 2px solid black;
+}
+div+p{
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+}
+p~h4{
+    font-family: "Audiowide", sans-serif;
+
+
+}
+h4#bottomH{
+    text-align: center;
+}
+#phNo{
+    color: red;
+}
+header i{
+    color: #333333;
+}
+button#btn{
+    background-color: gray;
+    border-radius:8px ;
+}
